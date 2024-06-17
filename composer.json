@@ -1,0 +1,32 @@
+{
+    "name": "rekalogika/collections-orm",
+    "description": "Supercharged query-backed Doctrine Collection.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "domain",
+        "collections",
+        "doctrine",
+        "pagination"
+    ],
+    "authors": [
+        {
+            "name": "Priyadi Iman Nurcahyo",
+            "email": "priyadi@rekalogika.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rekalogika\\Collections\\ORM\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "doctrine/collections": "^2.2.2 || ^2.3",
+        "doctrine/orm": "^2.14 || ^3.0",
+        "rekalogika/collections-common": "^0.5",
+        "rekalogika/rekapager-contracts": "^0.11",
+        "rekalogika/rekapager-doctrine-orm-adapter": "^0.11",
+        "rekalogika/rekapager-keyset-pagination": "^0.11"
+    }
+}
